@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>طنین های 💕</title>
+<link rel="icon" href="favicon.jpg" >
+<script>
+    // JavaScript to handle query parameters
+    window.onload = () => {
+      const params = new URLSearchParams(window.location.search);
+      var tr = params.get('track'); // Get the 'track' parameter
+
+      if (tr) {
+        const audioElement = document.getElementById(`${tr}`);
+        if (audioElement) {
+          audioElement.play(); // Play the specific track
+        } else {
+          console.error(`No audio element found for track ${tr}`);
+        }
+      }
+    };
+  </script>
+</head>
+
+<body>
+    <div>
+        <p>paola - mikis theodorakis: </p>
+        <p>
+            <audio controls loop id="1">
+            <source src="audios/paola.mp3" type="audio/mpeg">
+            no support of audio html element in this browser of yours!
+            </audio>
+        </p>
+        <p lang="fa" dir="rtl">ای مرغ حق افسانهٔ ویرانه هایی!
+ویرانه شد قلب من امشب کجایی؟
+
+• تصنیف : شباهنگ
+• آواز : همایون و مژگان شجریان
+• تنظیم : غلامرضا صادقی
+• انتشار : ۱۶ مهر ماه ۱۴۰۰
+✦♥️✦کانال استاد شجریان✦♥️✦ : &rlm; </p>
+        <p>
+            <audio controls loop id="2" >
+            <source src="audios/homayoun-mozhgan-shajarian.mpeg" type="audio/mpeg"/>
+            no support of audio html element in this browser of yours!
+            </audio>
+        </p>
+        <p>Hopes of Freedom (1971 Sacco and Vanzetti) Ennio Morricone: </p>
+        <p>
+            <audio controls loop id="3">
+            <source src="audios/ennio-morricone.mpeg" type="audio/mpeg"/>
+            no support of audio html element in this browser of yours!
+            </audio>
+        </p>
+        <p lang="fa" dir="rtl"> محمدرضا شجریان - ربنا : &rlm;  </p>
+        <p>
+            <audio controls loop id="4">
+            <source src="audios/mohammadreza-shajarian-rabbanaa.mp3" type="audio/mpeg"/>
+            no support of audio html element in this browser of yours!
+            </audio>
+        </p>
+    </div>
+</body>
+</html>

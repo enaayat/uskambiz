@@ -1,0 +1,5 @@
+﻿{
+  "Description": "Domain ownership verification file for Microsoft 365 - place in the website root",
+  "Domain": "uskambiz.ir",
+  "Id": "623702d6-6692-49e1-a5d1-3b22bb1c9505"
+}
