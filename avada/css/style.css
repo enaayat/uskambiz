@@ -1,1 +1,977 @@
+/* CSS Document */
+@font-face {
+	font-family: 'Patua One';
+	font-style: normal;
+	font-weight: 400;
+	src: local('Patua One'), local('PatuaOne-Regular'), url(//fonts.gstatic.com/s/patuaone/v7/ZXuke1cDvLCKLDcimxB44_lr.ttf) format('truetype');
+}
+.container {
+	width: 100%;
+	margin: 0 auto;
+	box-sizing: border-box;
+}
+.row {
+	/*margin: 15px 0;*/
+	width: 100%;
+}
+.row:after {
+	content: "";
+	clear: both;
+	height: 0;
+	overflow: hidden;
+	visibility: hidden;
+	margin: 0;
+	padding: 0;
+	display: block;
+}
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12 {
+	float: left;
+	/*	padding: 0 15px;*/
+	box-sizing: border-box;
+	position: relative;
+}
+.col-1 {
+	width: 8.3333%;
+}
+.col-2 {
+	width: 16.6666%;
+}
+.col-3 {
+	width: 25%;
+}
+.col-4 {
+	width: 33.3333%;
+}
+.col-5 {
+	width: 41.6666%;
+}
+.col-6 {
+	width: 50%;
+}
+.col-7 {
+	width: 58.3333%;
+}
+.col-8 {
+	width: 66.6666%;
+}
+.col-9 {
+	width: 75%;
+}
+.col-10 {
+	width: 83.3333%;
+}
+.col-11 {
+	width: 91.6666%;
+}
+.col-12 {
+	width: 100%;
+}
+body {
+	font-family: "Patua One";
+	font-weight: 400;
+	letter-spacing: 0px;
+	font-style: normal;
+	margin: 0;
+	box-sizing: border-box;
+}
+.bg {
+	background-image: url(https://avada.theme-fusion.com/veterinarian/wp-content/uploads/sites/80/2016/11/pattern_bg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	text-align: center;
+}
+h1 {
+	font-size: 60px;
+	color: white;
+	margin-top: 0;
+}
+h2 {
+	font-size: 45px;
+	color: white;
+	margin: 0;
+}
+h3 {
+	font-size: 26px;
+}
+.pt-0 {
+	padding-top: 0;
+}
+.pt-10 {
+	padding-top: 10px;
+}
+.pt-20 {
+	padding-top: 20px;
+}
+.pt-30 {
+	padding-top: 30px;
+}
+.pt-40 {
+	padding-top: 40px;
+}
+.pt-50 {
+	padding-top: 50px;
+}
+.pt-60 {
+	padding-top: 60px;
+}
+.pt-70 {
+	padding-top: 70px;
+}
+.pt-80 {
+	padding-top: 80px;
+}
+.pt-90 {
+	padding-top: 90px;
+}
+.pt-100 {
+	padding-top: 100px;
+}
+.pb-0 {
+	padding-bottom: 0;
+}
+.pb-10 {
+	padding-bottom: 10px;
+}
+.pb-20 {
+	padding-bottom: 20px;
+}
+.pb-30 {
+	padding-bottom: 30px;
+}
+.pb-40 {
+	padding-bottom: 40px;
+}
+.pb-50 {
+	padding-bottom: 50px;
+}
+.pb-60 {
+	padding-bottom: 60px;
+}
+.pb-70 {
+	padding-bottom: 70px;
+}
+.pb-80 {
+	padding-bottom: 80px;
+}
+.pb-90 {
+	padding-bottom: 90px;
+}
+.pb-100 {
+	padding-bottom: 100px;
+}
+.pets {
+	width: 100%;
+}
+.bg-top {
+	background-color: rgb(62, 196, 146);
+}
+.bottom {
+	background-color: rgb(61, 67, 76);
+}
+.top>div>a, .bottom>div>a, .top, .bottom {
+	color: white;
+}
+.top, .bottom {
+	padding: 20px;
+	box-sizing: border-box;
+}
+.top:after, .bottom:after {
+	content: "";
+	clear: both;
+	height: 0;
+	margin: 0;
+	padding: 0;
+	visibility: hidden;
+	overflow: hidden;
+	display: block;
+}
+i, .fa, .fas {
+	font-size: 40px;
+	color: #3ec492;
+	width: 72px;
+	height: 72px;
+	line-height: 80px;
+	margin: 0 auto;
+}
+.bg-row-3 {
+	color: #3ec492;
+	background-color: #eee;
+}
+.bg-row-3:after {
+	content: "";
+	clear: both;
+	margin: 0;
+	height: 0;
+	padding: 0;
+	visibility: hidden;
+	overflow: hidden;
+	display: block;
+}
+.fl {
+	float: left;
+}
+.wh {
+	color: white;
+}
+.tire {
+	color: #4c5166;
+}
+.bg-wh {
+	background-color: white;
+	padding: 10px;
+	margin-top: 25px;
+}
+.bg-white {
+	background-color: white;
+}
+.bg-white:after {
+	content: "";
+	clear: both;
+	margin: 0;
+	height: 0;
+	padding: 0;
+	visibility: hidden;
+	overflow: hidden;
+	display: block;
+}
+.bg-lightgray {
+	background-color: #f5f5f5;
+}
+.bg-lightgray:after {
+	content: "";
+	clear: both;
+	margin: 0;
+	height: 0;
+	padding: 0;
+	visibility: hidden;
+	overflow: hidden;
+	display: block;
+}
+.testi {
+	border-radius: 50%;
+	width: 10%;
+	vertical-align: middle;
+	padding: 10px;
+}
+.avatar {
+	border-radius: 50%;
+	width: 150px;
+	height: auto;
+}
+.sans {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+.fz-12 {
+	font-size: 12px;
+}
+.fz-16 {
+	font-size: 16px;
+}
+.fz-34 {
+	font-size: 34px;
+}
+.fz-37 {
+	font-size: 37px;
+}
+.fz-88 {
+	font-size: 88px;
+}
+.mid {
+	text-align: center;
+	margin: 0 auto;
+	padding: 40px;
+}
+.mid-div {
+	margin: 0 auto;
+}
+.w-60 {
+	width: 60%;
+}
+.w-80 {
+	width: 80%;
+}
+.w-90 {
+	width: 90%;
+}
+.resize320 {
+	width: 100%;
+}
+.khakestari {
+	color: #a1a4aa;
+}
+.khtire {
+	color: #4c5166;
+}
+.sabz {
+	color: #3ec492;
+}
+.lh-28 {
+	line-height: 28px;
+}
+.lh-32 {
+	line-height: 32px;
+}
+.bg-image {
+	background-image: url(https://avada.theme-fusion.com/veterinarian/wp-content/uploads/sites/80/2016/10/cta_bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	text-align: center;
+	padding-bottom: 110px;
+	height: 450px;
+}
+.range-tire {
+	background-color: #3d434c;
+	color: white;
+}
+.mr-45 {
+	margin-right: 45px;
+}
+.mr--45 {
+	margin-right: -45px;
+}
+.ml-45 {
+	margin-left: 45px;
+}
+.ml-10 {
+	margin-left: 10px;
+}
+.menu {
+	float: right;
+	padding: 0;
+	list-style: none;
+}
+.menu>li {
+	float: left;
+}
+.menu>li>a {
+	padding: 10px 30px;
+	color: #000;
+	transition: all 300ms;
+}
+.menu>li.active>a, .menu>li.featured:hover a, .menu>li:hover a {
+	background-color: #3ec492;
+	color: #fff;
+}
+.menu>li.featured>a {
+	color: #fff;
+	background-color: #000;
+}
+.but-pad {
+	padding: 16px 0 29px 0;
+}
+.pd-lr-0 {
+	padding-left: 0;
+	padding-right: 0;
+}
+.pt-105 {
+	padding-top: 105px;
+}
+.pd-v-25 {
+	padding: 25px 10px 25px 10px;
+}
+.gutter {
+	width: 95%;
+	margin: 0 auto;
+}
+.gutter:after {
+	content: "";
+	overflow: hidden;
+	clear: both;
+	visibility: hidden;
+	display: block;
+	height: 0;
+	padding: 0;
+	margin: 0;
+}
+.text-gutter {
+	box-sizing: border-box;
+	padding: 15px;
+}
+.text-gutter > h2 {
+	color: #3ec492;
+	font-size: 26px;
+	line-height: 34px;
+}
+.button-1 {
+	width: 135px;
+	height: 20px;
+	/*margin: 0 auto 80px;*/
+	text-align: center;
+	background-color: #3d434c;
+	color: white;
+	padding: 13px 29px;
+	line-height: 17px;
+	font-size: 14px;
+	transition-property: all;
+	transition-duration: 0.3s;
+	transition-timing-function: linear;
+}
+.button-1 >a{
+	color: white;
+}
+.button-1:hover {
+	background-color: #3ec492;
+}
+.button-2 {
+	width: 135px;
+	height: 20px;
+	margin: 0 auto;
+	text-align: center;
+	color: black;
+	background-color: #FFFFFF;
+	padding: 13px 29px;
+	line-height: 17px;
+	font-size: 14px;
+	transition-property: all;
+	transition-duration: 0.2s;
+	transition-timing-function: linear;
+}
+a {
+	text-decoration: none;
+	display: inline-block;
+}
+.button-2:hover {
+	color: white;
+	background-color: #3ec492;
+}
+.button-3 {
+	width: 135px;
+	height: 20px;
+	margin: 65px auto;
+	text-align: center;
+	color: black;
+	background-color: #FFFFFF;
+	padding: 13px 29px;
+	line-height: 17px;
+	font-size: 14px;
+	transition-property: all;
+	transition-duration: 0.2s;
+	transition-timing-function: linear;
+}
+.button-3:hover {
+	color: white;
+	background-color: #3d434c;
+}
+.button-4 {
+	width: 215px;
+	height: 26px;
+	margin: 65px auto;
+	text-align: center;
+	color: #fff;
+	background-color: #3ec492;
+	padding: 10px 13px;
+	line-height: 14px;
+	font-size: 14px;
+	transition-property: all;
+	transition-duration: 0.2s;
+	transition-timing-function: linear;
+}
+.button-4:hover {
+	color: white;
+	background-color: #3d434c;
+}
+.mar-top--25 {
+	margin-top: -25px;
+}
+.f-color {
+	color: #a1a4aa;
+}
+.fl {
+	float: left;
+}
+.lh-0 {
+	line-height: 0;
+}
+.lh-41 {
+	line-height: 41px;
+}
+.lh-185 {
+	line-height: 185px;
+}
+.no-bullet {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.p-0 {
+	padding: 0
+}
+.p-15 {
+	padding: 15px;
+}
+.p-30 {
+	padding: 30px;
+}
+.p-45 {
+	padding: 45px;
+}
+.p-60 {
+	padding: 60px;
+}
+.p-75 {
+	padding: 75px;
+}
+.w-h-20 {
+	width: 20px;
+	height: 20px;
+}
+.pv-15 {
+	padding: 15px 0;
+}
+.pv-25 {
+	padding: 25px 0;
+}
+.pv-30 {
+	padding: 30px 0;
+}
+.pv-45 {
+	padding: 45px 0;
+}
+.pv-60 {
+	padding: 60px 0;
+}
+.pv-75 {
+	padding: 75px 0;
+}
+.pv-90 {
+	padding: 90px 0;
+}
+.pv-105 {
+	padding: 105px 0;
+}
+.pv-120 {
+	padding: 120px 0;
+}
+.p-footer {
+	padding: 30px 12px;
+}
+.ph-10 {
+	padding: 0 10px;
+}
+.ph-30 {
+	padding: 0 30px;
+}
+.ph-45 {
+	padding: 0 45px;
+}
+.mh-10 {
+	margin: 0 10px;
+}
+.bg-about-1 {
+	background-image: url("http://avada.theme-fusion.com/veterinarian/wp-content/uploads/sites/80/2016/11/about_header_bg.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	text-align: center;
+	height: 600px;
+}
+.bg-about-2 {
+	background-image: url("https://avada.theme-fusion.com/veterinarian/wp-content/uploads/sites/80/2016/11/pattern_bg.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 500px;
+	height: auto;
+}
+.bg-about-3 {
+	background-image: url("https://avada.theme-fusion.com/veterinarian/wp-content/uploads/sites/80/2016/11/care_1.jpg");
+	background-position: left top;
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 500px;
+	height: auto;
+}
+.bg-about-4 {
+	background-image: url("https://avada.theme-fusion.com/veterinarian/wp-content/uploads/sites/80/2016/11/bg_faq.jpg");
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 500px;
+	height: auto;
+}
+.text-align-center {
+	text-align: center;
+}
+.text-align-left {
+	text-align: left;
+}
+.bg-last {
+	background-color: #282a2b;
+	width: 100%;
+	height: auto;
+	text-align: center;
+	line-height: 65px;
+}
+.relativeImage {
+	width: 100%;
+	height: auto;
+}
+.relativeImage90 {
+	width: 90%;
+	height: auto;
+}
+.relativeImage75 {
+	width: 75%;
+	height: auto;
+}
+.paw-size {
+	font-size: 1.0em;
+}
+.h-185 {
+	height: 185px;
+}
+.vertical-align-middle {
+	vertical-align: middle;
+}
+.br {
+	border-bottom: 1px solid #a1a4aa;
+}
+.bg-services-1 {
+	background-image: url("https://avada.theme-fusion.com/veterinarian/wp-content/uploads/sites/80/2016/11/services_header_bg.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	text-align: center;
+	height: 600px;
+}
+.bg-services-2 {
+	background-image: url("https://avada.theme-fusion.com/veterinarian/wp-content/uploads/sites/80/2016/11/pattern_bg_2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	text-align: center;
+	height: 210px;
+}
+.upper-case {
+	text-transform: uppercase;
+}
+.pl-0 {
+	padding-left: 0;
+}
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}
+.mb-0 {
+	margin-bottom: 0;
+}
+.mv-75 {
+	margin: 75px 0;
+}
+.bg-advice-1 {
+	background-image: url("https://avada.theme-fusion.com/veterinarian/wp-content/uploads/sites/80/2016/11/advice_header_bg.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	text-align: center;
+	height: 600px;
+}
+.m-30 {
+	margin: 30px;
+}
+.bg-contact-1 {
+	background-image: url("https://avada.theme-fusion.com/veterinarian/wp-content/uploads/sites/80/2016/11/contact_header_bg.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	text-align: center;
+	height: 600px;
+}
+.mt-45 {
+	margin-top: 45px;
+}
+.mt-80{
+	margin-top: 80px;
+}
+.form-brdr {
+	padding: 0 45px;
+	margin: 20px auto;
+	width: 85%;
+	box-sizing: border-box;
+	height: 53px;
+	border: 1px solid #dddddd;
+	font-size: 13px;
+	color: #a1a4aa;
+	display: block;
+}
+.txt-brdr {
+	box-sizing: border-box;
+	padding: 0 45px;
+	margin: 20px auto;
+	width: 85%;
+	max-width: 570px;
+	height: 53px;
+	border: 1px solid #dddddd;
+	font-size: 13px;
+	color: #a1a4aa;
+	display: block;
+}
+.apt-button {
+	display: block;
+	padding: 13px 29px;
+	line-height: 17px;
+	font-size: 14px;
+	background: #3d434c;
+	text-transform: uppercase;
+	color: #ffffff;
+	transition: all .2s;
+}
+.apt-button:hover {
+	background: #3ec492;
+}
 
+/*mobile*/
+@media only screen and (max-width:575px) {
+.menu>li {
+	float: none;
+}
+.menu {
+	float: none;
+}
+.h-185 {
+	height: 235px;
+}
+.col-1 {
+	width: 100%;
+}
+.col-2 {
+	width: 100%;
+}
+.col-3 {
+	width: 100%;
+}
+.col-4 {
+	width: 100%;
+}
+.col-5 {
+	width: 100%;
+}
+.col-6 {
+	width: 100%;
+}
+.col-7 {
+	width: 100%;
+}
+.col-8 {
+	width: 100%;
+}
+.col-9 {
+	width: 100%;
+}
+.col-10 {
+	width: 100%;
+}
+.col-11 {
+	width: 100%;
+}
+.col-12 {
+	width: 100%;
+}
+}
+
+/*phablet*/
+@media only screen and (min-width:576px) {
+.col-8> ul {
+	margin-right: 0;
+	margin-left: 0;
+}
+.menu {
+	float: left;
+}
+.container {
+	width: 576px;
+}
+.p-footer {
+	height: 340px;
+}
+.col-1 {
+	width: 50%;
+}
+.col-2 {
+	width: 50%;
+}
+.col-3 {
+	width: 50%;
+}
+.col-4 {
+	width: 100%;
+}
+.col-5 {
+	width: 100%;
+}
+.col-6 {
+	width: 100%;
+}
+.col-7 {
+	width: 100%;
+}
+.col-8 {
+	width: 100%;
+}
+.col-9 {
+	width: 100%;
+}
+.col-10 {
+	width: 100%;
+}
+.col-11 {
+	width: 100%;
+}
+.col-12 {
+	width: 100%;
+}
+}
+
+/*tablet*/
+@media only screen and (min-width:768px) {
+.container {
+	width: 768px;
+}
+.menu {
+	float: left;
+}
+.col-1 {
+	width: 50%;
+}
+.col-2 {
+	width: 50%;
+}
+.col-3 {
+	width: 50%;
+}
+.col-4 {
+	width: 100%;
+}
+.col-5 {
+	width: 100%;
+}
+.col-6 {
+	width: 100%;
+}
+.col-7 {
+	width: 100%;
+}
+.col-8 {
+	width: 100%;
+}
+.col-9 {
+	width: 100%;
+}
+.col-10 {
+	width: 100%;
+}
+.col-11 {
+	width: 100%;
+}
+.col-12 {
+	width: 100%;
+}
+}
+
+/*desktop*/
+@media only screen and (min-width:992px) {
+.container {
+	width: 992px;
+}
+.p-footer {
+	height: 380px;
+}
+.menu {
+	float: right;
+}
+.col-1 {
+	width: 8.3333%;
+}
+.col-2 {
+	width: 16.6666%;
+}
+.col-3 {
+	width: 25%;
+}
+.col-4 {
+	width: 33.3333%;
+}
+.col-5 {
+	width: 41.6666%;
+}
+.col-6 {
+	width: 50%;
+}
+.col-7 {
+	width: 58.3333%;
+}
+.col-8 {
+	width: 66.6666%;
+}
+.col-9 {
+	width: 75%;
+}
+.col-10 {
+	width: 83.3333%;
+}
+.col-11 {
+	width: 91.6666%;
+}
+.col-12 {
+	width: 100%;
+}
+}
+
+/*large desktop*/
+@media only screen and (min-width:1200px) {
+.container {
+	width: 1200px;
+}
+.menu {
+	float: right;
+}
+.col-1 {
+	width: 8.3333%;
+}
+.col-2 {
+	width: 16.6666%;
+}
+.col-3 {
+	width: 25%;
+}
+.col-4 {
+	width: 33.3333%;
+}
+.col-5 {
+	width: 41.6666%;
+}
+.col-6 {
+	width: 50%;
+}
+.col-7 {
+	width: 58.3333%;
+}
+.col-8 {
+	width: 66.6666%;
+}
+.col-9 {
+	width: 75%;
+}
+.col-10 {
+	width: 83.3333%;
+}
+.col-11 {
+	width: 91.6666%;
+}
+.col-12 {
+	width: 100%;
+}
+}
+.clearfix {
+	clear: both;
+	margin: 0;
+	height: 0;
+	padding: 0;
+	visibility: hidden;
+	overflow: hidden;
+	display: block;
+}
