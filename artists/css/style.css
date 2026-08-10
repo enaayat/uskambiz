@@ -1,1 +1,54 @@
+/* CSS Document */
 
+body {
+	font-family: verdana, sans-serif;
+	color: #000;
+	background-color: #fff;
+}
+@font-face {
+	font-family: 'IRANSans-web';
+	src: url('../fonts/IRANSans.eot?#') format('eot'),  /* IE6–8 */
+url('../fonts/IRANSans.woff2') format('woff2'),  /* Chrome36+, Opera24+*/
+url('../fonts/IRANSans.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+.onlyFarsiFont {
+	font-family: 'IRANSans-web';
+}
+
+.farsi {
+	direction: rtl;
+	font-family: 'IRANSans-web', verdana, sans-serif;
+}
+.makeCenterH {
+	text-align: center;
+}
+.makeCenterV {
+	margin-top: 200px;
+}
+.makeBlackAndWhite {
+	filter: grayscale(100%);
+}
+.makeRound {
+	border-radius: 50%;
+}
+.rotateCW90 {
+	transform: rotate(90deg);
+}
+.opacity07 {
+	opacity: 0.7;
+}
+.floatLeft {
+	float: left;
+}
+.clearBoth {
+	clear: both;
+}
+.margin15 {
+	margin: 15px;
+}
+.hoverEffect {
+	text-decoration: none;
+}
+.hoverEffect:hover {
+	text-decoration: underline;
+}
