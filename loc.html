@@ -55,18 +55,23 @@
         <h1>موقعیت جغرافیایی</h1>
         <div class="coord-box">
             عرض جغرافیایی (Lat): <br>
-            <span id="lat">---</span>
+            <span id="lat">35.72299</span>
         </div>
         <div class="coord-box">
             طول جغرافیایی (Lon): <br>
-            <span id="lon">---</span>
+            <span id="lon">51.45088</span>
         </div>
+	<div class="coord-box">
+		 جابجایی به متر: <br>
+	    <span id="dis">0</span>
+	</div>
         <button onclick="getLocation()">به‌روزرسانی موقعیت</button>
         <div id="status">برای شروع، دکمه بالا را لمس کنید.</div>
     </div>
     <script>
         const latDisplay = document.getElementById('lat');
         const lonDisplay = document.getElementById('lon');
+	const dispDisplay = document.getElementById('dis');
         const statusDisplay = document.getElementById('status');
         function getLocation() {
             statusDisplay.innerText = "در حال دریافت اطلاعات...";
@@ -83,8 +88,13 @@
             }
         }
         function showPosition(position) {
+	    oldlat = latDisplay.innerText;
+	    oldlon = lonDisplay.innerText;
             latDisplay.innerText = position.coords.latitude.toFixed(5);
             lonDisplay.innerText = position.coords.longitude.toFixed(5);
+	    deltaX = (oldlon - lonDisplay.innerText)*90000;
+	    deltaY = (oldlat - latDisplay.innerText)*90000;
+	    dispDisplay.innerText = Math.trunc(Math.sqrt(Math.pow(deltaX, 2) + Math.pow(deltaY, 2)));
             statusDisplay.innerText = "موقعیت با موفقیت دریافت شد ✅";
             statusDisplay.style.color = "green";
         }
@@ -94,7 +104,7 @@
                     statusDisplay.innerText = "خطا: اجازه دسترسی به لوکیشن داده نشد. ❌";
                     break;
                 case error.POSITION_UNAVAILABLE:
-                    statusDisplay.innerText = "خطا: اطلاعات موقعیت در این دستگاه شما در دسترس نیست. ❌";
+                    statusDisplay.innerText = "خطا: اطلاعات موقعیت در دسترس نیست. ❌";
                     break;
                 case error.TIMEOUT:
                     statusDisplay.innerText = "خطا: زمان درخواست به پایان رسید. ❌";
