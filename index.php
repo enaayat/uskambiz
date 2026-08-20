@@ -1,0 +1,96 @@
+<?php ?>
+ 
+<!doctype html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8">
+<meta name="viewport"    content="width=device-width, initial-scale=1">
+<meta name="description" content="personal website of kambiz enayati for testing and experimenting PHP, HTML, CSS, javascript and SEO as well as auditing technical performances to be optimum">
+
+
+<link rel="icon" href="favicon.jpg" type="image/jpeg">
+
+<title> بسم الله الرّحمن الرّحیم </title>
+
+<style>
+ol, li, a, p {
+	color: black;
+}
+ 
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background: url('/IRAN.jpg') no-repeat center center;
+  background-size: cover;
+  opacity: 0.1;
+  pointer-events: none;
+  z-index: -1;
+}
+
+ul li {
+    margin-bottom: 13px; /* Adjust the value to increase/decrease space */
+  }
+  
+  /* Remove margin from the last element, if needed */
+  ul li:last-child {
+    margin-bottom: 0;
+  }
+a:hover {
+	color: grey;
+}
+</style>
+
+<meta name="google-site-verification" content="nxFJQksJF5RaFHPDfUnDwmC8WevPlVrvtVfDhimzvBc" >
+</head>
+
+<body>
+<main>
+
+<ul>
+  <li> <a href="http://www.parsquran.com">In the name of Allah, the most Beneficent, the most Merciful هو الرزّاق</a></li>
+  <li> <a href="https://khamenei.ir"> مرگ بر اسرائیل </a></li>
+  <li> <a href="http://x.com/Kahlissee/status/1827310739645722874?t=Ln8JUIi3vbXKwryC2xLnlQ&s=19">😱😱😠😡 - please unmute speaker for x.com  video link in english which prepares everyone for American revulsion, before  grok removes it, (X.COM has suspended the account holder "prophet" as i checked on May 2026!)</a></li>    
+  <li> <a href="doa.html">doa also in english دعای فارسی</a></li>
+  <li> <a href="biblical.html">some Bilbical words</a></li>
+  <li> <a href="artists/index.html">Four artists - a web design drill</a> </li>
+  
+  <li> <a href="projects/index.php">js playground - sample drills</a> </li>
+  
+  <li> <a href="clips.html"> i like it - clips</a> </li>
+  <li> <a href="audios.html"> i like it - audios</a> </li>
+  <li> <a href="links.html" target="_blank"> i like it - (link directory) </a></li>
+  <li> <a href="http://pagespeed.web.dev/report?url=http%3A%2F%2Fuskambiz.ir%2F&form_factor=desktop" target="_blank"> google developers PageSpeed Insights </a></li>
+  <li> <a href="infested-congress.html">infested-congress</a> </li>
+  <li> <a href="cult-buster.html">repel CULTS this way and make yourself free</a></li>
+  <li> <a href="http://www.sharghdaily.com/%D8%A8%D8%AE%D8%B4-%D8%AC%D8%A7%D9%85%D8%B9%D9%87-220/1054775-%D8%A8%D9%87%D9%85%D9%86-%DA%86%D9%88%D8%A8%DB%8C-%D8%A7%D8%B5%D9%84-%DA%A9%DB%8C%D8%B3%D8%AA-%D8%A8%DB%8C%D9%88%DA%AF%D8%B1%D8%A7%D9%81%DB%8C-%D8%B3%D9%88%D8%A7%D8%A8%D9%82">a farsi newspaper explains how destiny of srael and its followers finally IS being executed</a></li>
+  <li> 
+  honesty and kindness are basis & MORALITY, in Islam and Christianity.<br>
+  but source of everything IMMORAL is tied and documented to israel agenda, including:<br>
+  appartheid, <br>
+  ethnic cleansing, <br>
+  massacre, <br>
+  damaging, <br>
+  psychopathy promotions, <br>
+  rapes, <br>
+  molestations, <br>
+  bullyings, <br>
+  betrays, <br>
+  traits, <br>
+  breaches, <br>
+  aggression, <br>
+  taking advantage from others and naives specifically, <br>
+  usury, <br>
+  lies, <br>
+  cheats, <br>
+  "disinformation = imposing fake news by social engineering (gaslighting) = zionist news =  اخبار گمراه کنندهٔ صهیونی ها = اخبار دروغ"<br>
+    
+  </li>
+  <li> <a href="contact.html"> uskambiz.ir webmaster contact page </a> </li>
+
+  <li> <a href="loc.html"> live location </a> </li>
+</ul>
+</main>
+</body>
+</html>
